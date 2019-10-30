@@ -1,0 +1,59 @@
+
+/* <!-- """I worked on this homework with Rohit Ramachandran and referred to
+HTMLdog.com and w3schools.com, as well as the assignment PDF.""" --> */
+
+body {
+    background-color: palegoldenrod;
+}
+h1 {
+    color:darkslategray;
+    font-family: verdana, geneva, helvetica, arial, sans-serif;
+    font-variant: small-caps
+}
+h2 {
+    color:dimgray;
+    font-family: geneva, helvetica, arial, sans-serif, verdana;
+    font-weight: bold
+}
+h3 {
+    color:gray;
+    font-family: helvetica, arial, sans-serif, verdana, geneva;
+    font-style: italic
+}
+p {
+    color: black;
+    font-family: arial, sans-serif, verdana, geneva, helvetica;
+}
+a:visited {
+    text-decoration: none;
+    color: purple
+}
+
+a:hover {
+    text-decoration: underline;
+    color: orange
+}
+
+a:active {
+    text-decoration: underline;
+    color: blue
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+table {
+    width: 50%;
+}
+th {
+    height: 50px;
+}
+.center {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 90%;
+}
